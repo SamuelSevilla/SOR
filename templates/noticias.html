@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias - Ingeniería en Computación | UNI</title>
+  <link rel="stylesheet" href="/estilo/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="/funcion/script.js" defer></script>
+
+</head>
+<body>
+  <div class="overlay" id="overlay"></div>
+
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <img src="/imagenes/logouni.png" alt="Logo UNI" class="logo-uni">
+        <span class="carrera-text">Universidad Nacional de Ingeniería</span>
+      </div>
+      <button id="toggle-sidebar" aria-label="Menú">☰</button>
+    </div>
+  </header>
+
+  <nav id="sidebar" class="sidebar">
+    <div class="sidebar-header"><h2>Menú Principal</h2></div>
+    <ul>
+            <li><a href="/templates/index.html">Inicio</a></li>
+            <li><a href="/templates/uni.html">Universidad Nacional de Ingeniería</a></li>
+            <li><a href="/templates/carrera.html">Carrera</a></li>
+            <li><a href="/templates/plan.html">Plan de Estudios</a></li>
+            <li><a href="/templates/docentes.html">Docentes</a></li>
+            <li><a href="/templates/recursos.html" class="active">Recursos</a></li>
+            <li><a href="/templates/noticias.html">Noticias</a></li>
+            <li><a href="/templates/contacto.html">Recintos</a></li>
+    </ul>
+  </nav>
+
+  <div class="main-content">
+    <main>
+      <section class="banner">
+        <h1>Noticias y Novedades</h1>
+        <p>Entérate de lo más reciente de la carrera</p>
+      </section>
+
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+
+          <div class="carousel-item">
+            <div class="date">25 de septiembre de 2025</div>
+            <h3> Festival Nacional de Róbotica, Inteligencia Artificial y Proyectos Tecnológicos.</h3>
+            <p> Un espacio para demostrar talento, creatividad e innovación.</p>
+          </div>
+
+          <div class="carousel-item">
+            <div class="date">13 de noviembre de 2025</div>
+            <h3> CONGRESO NACIONAL INTERUNIVERSITARIO</h3>
+            <p> Tecnología de la Información y Comunicación.</p>
+          </div>
+
+          <div class="carousel-item">
+            <div class="date">15 de noviembre de 2025</div>
+            <h3>UNI realiza conferencias en homenaje al legado del Comandante Fidel Castro Ruz</h3>
+            <p>En el marco de la conmemoración del noveno aniversario del paso a la inmortalidad del Comandante Fidel Castro Ruz, la Universidad Nacional de Ingeniería (UNI) desarrolló un ciclo de conferencias.</p>
+          </div>
+
+          <div class="carousel-item">
+            <div class="date">21 de noviembre de 2025</div>
+            <h3>Soporte y experiencias Técnicas DACTIC</h3>
+            <p>Primer piso, edificio DACTIC</p>
+          </div>
+
+          <div class="carousel-item">
+            <div class="date">21 de noviembre de 2025</div>
+            <h3>“Raíces de Paz y Tecnología” para reflexionar sobre identidad e historia desde la formación ingenieril</h3>
+            <p>La Universidad Nacional de Ingeniería (UNI) realizó la exposición académica “Raíces de Paz y Tecnología: Construyendo Futuro desde la Historia”, una iniciativa desarrollada por estudiantes de las carreras de Ingeniería de Sistemas, Telecomunicaciones, Computación e Ingeniería Electrónica.</p>
+          </div>
+
+          <div class="carousel-item">
+            <div class="date">24 de noviembre de 2025</div>
+            <h3>UNI plataforma de Emprendimientos Universitarios</h3>
+            <p>Alrededor de 65 emprendimientos participaron en la II Expoferia de Emprendimiento Universitario 2025, un espacio que visibilizó el talento y la capacidad innovadora de la comunidad universitaria y emprendedora.</p>
+          </div>
+
+          <div class="carousel-item">
+            <div class="date">28 de noviembre de 2025</div>
+            <h3>INTER DACTIC: Innovación + Tecnología</h3>
+            <p>La actividad es organizada por el Área de Conocimiento de Tecnología de la Información y Comunicación DACTIC, exposición de proyectos como parte del II Semestre 2025.</p>
+          </div>
+
+        </div>
+
+        <button class="carousel-btn prev" id="prev">←</button>
+        <button class="carousel-btn next" id="next">→</button>
+      </div>
+
+      <div class="carousel-indicators" id="indicators"></div>
+    </main>
+
+    <footer>
+            <div class="footer-content">
+                <p>Copyright © 2025 All rights reserved</p>
+                <p>Portal Académico desarrollado para la comunidad UNI</p>
+            </div>
+        </footer>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Ingeniería en Computación | UNI</title>
+    <link rel="stylesheet" href="/estilo/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="/funcion/script.js" defer></script>
+</head>
+<body>
+    <div class="overlay" id="overlay"></div>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="/imagenes/logouni.png" alt="Logo UNI" class="logo-uni">
+                <span class="carrera-text">Universidad Nacional de Ingeniería</span>
+            </div>
+            <button id="toggle-sidebar" aria-label="Menú">☰</button>
+        </div>
+    </header>
+
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header"><h2>Menú Principal</h2></div>
+        <ul>
+            <li><a href="/templates/index.html">Inicio</a></li>
+            <li><a href="/templates/uni.html">Universidad Nacional de Ingeniería</a></li>
+            <li><a href="/templates/carrera.html">Carrera</a></li>
+            <li><a href="/templates/plan.html">Plan de Estudios</a></li>
+            <li><a href="/templates/docentes.html">Docentes</a></li>
+            <li><a href="/templates/recursos.html" class="active">Recursos</a></li>
+            <li><a href="/templates/noticias.html">Noticias</a></li>
+            <li><a href="/templates/contacto.html">Recintos</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <main>
+            <section class="banner">
+                <h1>Recintos de la Universidad Nacional de Ingeniería</h1>
+                <p>La Universidad Nacional de Ingeniería cuenta con dos recintos en Managua, una Finca Agrícola Experimental (Masaya) y dos Centros Universitarios Regionales - CUR (Estelí y Juigalpa).</p>
+            </section>
+            <section class="recintos-grid">
+                <article class="recinto-card">
+                    <div class="card-image">
+                        <img src="/imagenes/RUSB.jpg">
+                        <div class="card-overlay">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Recinto Universitario Simón Bolívar</h3>
+                        <p class="card-location">Sede Central</p>
+                        <p class="card-description">
+                            Sede Central ubicada en la Avenida Universitaria Managua, Nicaragua. Cuenta con 2 áreas de conocimiento (DACA y DACTIC) y 7 programas académicos.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Recinto Pedro Arauz Palacios -->
+                <article class="recinto-card">
+                    <div class="card-image">
+                        <img src="/imagenes/RUPAP.jpg">
+                        <div class="card-overlay">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Recinto Pedro Arauz Palacios</h3>
+                        <p class="card-description">
+                            Ubicada en el costado Sur de Villa Progreso Managua, Nicaragua. Cuenta con 1 área de conocimiento (DACIA) y 6 programas académicos.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Centro Regional Estelí -->
+                <article class="recinto-card">
+                    <div class="card-image">
+                        <img src="/imagenes/CRE.png">
+                        <div class="card-overlay">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Centro Universitario Regional Estelí</h3>
+                        <p class="card-description">
+                            Entrada a La Tunoza, Antigua Hacienda el Higo, Estelí, Nicaragua. Cuenta con 4 programas académicos: Civil, Sistemas, Industrial y Agroindustrial, 3 técnicos superiores en: Tecnologías Agroindustriales, Ingeniería Eléctrica y Construcción en Obras Civiles.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Centro Regional Juigalpa -->
+                <article class="recinto-card">
+                    <div class="card-image">
+                        <img src="/imagenes/CURJ.png" alt="Centro Regional Juigalpa">
+                        <div class="card-overlay">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Centro Universitario Regional Juigalpa</h3>
+                        <p class="card-description">
+                            Rancho de juancho 300 mts al oeste Juigalpa, Nicaragua. Cuenta con 3 programas académicos: Civil, Sistemas y Agroindustrial, 3 técnicos superiores en: Tecnologías Agroindustriales, Ingeniería Eléctrica y Construcción en Obras Civiles
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Finca Experimental Masaya -->
+                <article class="recinto-card">
+                    <div class="card-image">
+                        <img src="/imagenes/FINCA.jpg" alt="Finca Experimental Masaya">
+                        <div class="card-overlay">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Finca Agrícola Experimental</h3>
+                        <p class="card-description">
+                            Ubicada en el municipio Las Flores, comunidad La Bolsa - Masaya. Cuenta con 3 técnicos superiores en: Tecnologías de Riego, Mecanización Agrícola y Construcción en Obras Civiles.
+                        </p>
+                    </div>
+                </article>
+
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>Copyright © 2025 All rights reserved</p>
+                <p>Portal Académico desarrollado para la comunidad UNI</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
